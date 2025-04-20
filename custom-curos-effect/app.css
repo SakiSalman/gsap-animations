@@ -1,0 +1,21 @@
+body{
+    background-color: #111;
+    width: 100vw;
+    height: 100vh;
+}
+
+#cursor{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #fff;
+    pointer-events: none;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+#main{
+    width: 40vw;
+    height: 70vh;
+    background-color: brown;
+}
